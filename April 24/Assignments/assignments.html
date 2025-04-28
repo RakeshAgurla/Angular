@@ -1,0 +1,43 @@
+//Q1
+<script>
+    let a='sachin';
+    let b=(a.split('').reverse());   //Split the string into an array of characters.
+    console.log(b)  
+    console.log(b.join()); 
+</script>
+ 
+//Q2
+<SCRIPT>
+let c='This is javascript class';
+let d=(c.split(' '));
+console.log(d)
+console.log(d.reverse())
+console.log(d.join())
+</SCRIPT>
+
+//Q3. WAP to print the first non-repeated character in a string
+input:- 'entertainment'
+output:- r
+<script>
+    function nonreapeatedchar(str){
+        for(i=0;i<str.length;i++) {
+            let char = str[i];
+            if(str.indexof(char) === str.lastIndexOf(char)) {
+                return char;
+            }  
+        }
+        return null;
+    }
+    let input='entertainment'
+    let result=nonreapeatedchar(input)
+    console.log(result);
+    </script>
+    
+    ///4. WAP to print a string in title case
+	input:- 'this is javascript class'
+   output:- 'This Is Javascript Class'
+   <script>
+    let a ='this is javascript class'
+    a.split('')
+    console.log(a)
+   </script>

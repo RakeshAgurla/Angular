@@ -1,0 +1,18 @@
+<script>
+    let a='listen'
+    let b='silent';
+    let booleanval = true;
+    if(a.length!=b.length){
+        booleanval = false;
+    }
+    
+    splita=a.split("").sort().join("")
+    splitb=b.split("").sort().join("")
+    
+    if(splita==splitb){
+        booleanval = true;
+    }
+    
+    console.log(booleanval)
+</script>
+
